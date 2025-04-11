@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 245, 245, 245;
+  --background-end-rgb: 255, 255, 255;
+  --primary-color: 0, 0, 0; /* Preto */
+  --accent-color: 212, 175, 55; /* Dourado */
+  --secondary-color: 51, 51, 51; /* Cinza escuro */
+  --light-color: 245, 245, 245; /* Cinza claro */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold uppercase tracking-wider;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+  
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-black text-white px-6 py-3 rounded-none uppercase font-bold tracking-wider hover:bg-opacity-90 transition-all;
+  }
+  
+  .btn-accent {
+    @apply bg-[#D4AF37] text-black px-6 py-3 rounded-none uppercase font-bold tracking-wider hover:bg-opacity-90 transition-all;
+  }
+  
+  .section {
+    @apply py-12 md:py-20;
+  }
+  
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+  
+  .card {
+    @apply bg-white p-6 shadow-md;
+  }
+  
+  .nav-link {
+    @apply uppercase text-sm font-medium tracking-wider hover:text-[#D4AF37] transition-colors;
+  }
+}
