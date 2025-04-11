@@ -1,30 +1,31 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 type ButtonProps = {
   children: React.ReactNode;
   href?: string;
-  variant?: 'primary' | 'accent';
+  variant?: "primary" | "accent";
   onClick?: () => void;
   className?: string;
 };
 
-export default function Button({ 
-  children, 
-  href, 
-  variant = 'primary', 
+export default function Button({
+  children,
+  href,
+  variant = "primary",
   onClick,
-  className = ''
+  className = "",
 }: ButtonProps) {
-  const baseClasses = 'px-6 py-3 rounded-none uppercase font-bold tracking-wider hover:bg-opacity-90 transition-all';
+  const baseClasses =
+    "px-6 py-3 rounded-none uppercase font-bold tracking-wider hover:bg-opacity-90 transition-all";
   const variantClasses = {
-    primary: 'bg-black text-white',
-    accent: 'bg-[#D4AF37] text-black'
+    primary: "bg-black text-white",
+    accent: "bg-[#446EEC] text-black",
   };
-  
+
   const buttonClasses = `${baseClasses} ${variantClasses[variant]} ${className}`;
-  
+
   if (href) {
     return (
       <Link href={href} className={buttonClasses}>
@@ -32,7 +33,7 @@ export default function Button({
       </Link>
     );
   }
-  
+
   return (
     <button onClick={onClick} className={buttonClasses}>
       {children}

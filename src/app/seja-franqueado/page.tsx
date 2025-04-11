@@ -11,7 +11,7 @@ export default function SejaFranqueadoPage() {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
               SEJA UM{" "}
-              <span className="text-[#D4AF37]">FRANQUEADO</span>
+              <span className="text-[#446EEC]">FRANQUEADO</span>
             </h1>
             <p className="text-xl mb-8">
               Invista em um negócio inovador e lucrativo. Faça parte
@@ -26,11 +26,11 @@ export default function SejaFranqueadoPage() {
       <Section bgColor="white">
         <h2 className="text-center mb-12">
           VANTAGENS DE SER UM{" "}
-          <span className="text-[#D4AF37]">FRANQUEADO</span>
+          <span className="text-[#446EEC]">FRANQUEADO</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">
+            <div className="text-[#446EEC] text-5xl mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-16 w-16 mx-auto"
@@ -55,7 +55,7 @@ export default function SejaFranqueadoPage() {
             </p>
           </div>
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">
+            <div className="text-[#446EEC] text-5xl mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-16 w-16 mx-auto"
@@ -81,7 +81,7 @@ export default function SejaFranqueadoPage() {
             </p>
           </div>
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">
+            <div className="text-[#446EEC] text-5xl mb-4">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-16 w-16 mx-auto"
@@ -114,7 +114,7 @@ export default function SejaFranqueadoPage() {
           <div>
             <h2 className="mb-6 text-white">
               INVESTIMENTO{" "}
-              <span className="text-[#D4AF37]">NECESSÁRIO</span>
+              <span className="text-[#446EEC]">NECESSÁRIO</span>
             </h2>
             <p className="mb-4 text-white">
               A franquia Sniper oferece um modelo de negócio com
@@ -123,7 +123,7 @@ export default function SejaFranqueadoPage() {
               diferenciado e lucrativo.
             </p>
             <div className="bg-[#111] p-6 mb-6">
-              <h3 className="text-xl font-bold mb-2 text-[#D4AF37]">
+              <h3 className="text-xl font-bold mb-2 text-[#446EEC]">
                 INVESTIMENTO INICIAL
               </h3>
               <p className="text-white mb-2">
@@ -131,44 +131,44 @@ export default function SejaFranqueadoPage() {
               </p>
               <ul className="space-y-2 text-white">
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Taxa de franquia</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Equipamentos e mobiliário</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Projeto arquitetônico</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Treinamento inicial</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Material de marketing</span>
                 </li>
               </ul>
             </div>
             <div className="bg-[#111] p-6">
-              <h3 className="text-xl font-bold mb-2 text-[#D4AF37]">
+              <h3 className="text-xl font-bold mb-2 text-[#446EEC]">
                 RETORNO ESPERADO
               </h3>
               <ul className="space-y-2 text-white">
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>
                     Faturamento médio mensal: R$ 80.000 a R$ 120.000
                   </span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Payback estimado: 10 a 15 meses</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Lucratividade média: 25% a 35%</span>
                 </li>
               </ul>
@@ -186,11 +186,11 @@ export default function SejaFranqueadoPage() {
       {/* Processo */}
       <Section bgColor="light">
         <h2 className="text-center mb-12">
-          PROCESSO DE <span className="text-[#D4AF37]">SELEÇÃO</span>
+          PROCESSO DE <span className="text-[#446EEC]">SELEÇÃO</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">01</div>
+            <div className="text-[#446EEC] text-5xl mb-4">01</div>
             <h3 className="text-xl font-bold mb-2">
               CONTATO INICIAL
             </h3>
@@ -200,7 +200,7 @@ export default function SejaFranqueadoPage() {
             </p>
           </div>
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">02</div>
+            <div className="text-[#446EEC] text-5xl mb-4">02</div>
             <h3 className="text-xl font-bold mb-2">ENTREVISTA</h3>
             <p>
               Reunião para apresentação detalhada do modelo de negócio
@@ -208,7 +208,7 @@ export default function SejaFranqueadoPage() {
             </p>
           </div>
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">03</div>
+            <div className="text-[#446EEC] text-5xl mb-4">03</div>
             <h3 className="text-xl font-bold mb-2">APROVAÇÃO</h3>
             <p>
               Análise do perfil do candidato e aprovação para se
@@ -216,7 +216,7 @@ export default function SejaFranqueadoPage() {
             </p>
           </div>
           <div className="card text-center">
-            <div className="text-[#D4AF37] text-5xl mb-4">04</div>
+            <div className="text-[#446EEC] text-5xl mb-4">04</div>
             <h3 className="text-xl font-bold mb-2">IMPLANTAÇÃO</h3>
             <p>
               Assinatura do contrato, escolha do ponto, projeto e
@@ -232,7 +232,7 @@ export default function SejaFranqueadoPage() {
           <div>
             <h2 className="mb-6">
               QUERO SER UM{" "}
-              <span className="text-[#D4AF37]">FRANQUEADO</span>
+              <span className="text-[#446EEC]">FRANQUEADO</span>
             </h2>
             <p className="mb-6">
               Preencha o formulário ao lado para receber mais
@@ -249,11 +249,11 @@ export default function SejaFranqueadoPage() {
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>expancao@franquiasniper.com.br</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>(41) 9 9839-2690</span>
                 </li>
               </ul>

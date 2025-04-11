@@ -10,7 +10,7 @@ export default function UnidadesPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-6">
-              NOSSAS <span className="text-[#D4AF37]">UNIDADES</span>
+              NOSSAS <span className="text-[#446EEC]">UNIDADES</span>
             </h1>
             <p className="text-xl mb-8">
               Conheça as unidades da franquia Sniper espalhadas pelo
@@ -23,7 +23,7 @@ export default function UnidadesPage() {
       {/* Mapa */}
       <Section bgColor="white">
         <h2 className="text-center mb-12">
-          ONDE <span className="text-[#D4AF37]">ESTAMOS</span>
+          ONDE <span className="text-[#446EEC]">ESTAMOS</span>
         </h2>
         <div className="bg-gray-200 h-96 flex items-center justify-center mb-12">
           <div className="text-center">
@@ -48,12 +48,12 @@ export default function UnidadesPage() {
       {/* Unidades por Região */}
       <Section bgColor="light">
         <h2 className="text-center mb-12">
-          UNIDADES POR <span className="text-[#D4AF37]">REGIÃO</span>
+          UNIDADES POR <span className="text-[#446EEC]">REGIÃO</span>
         </h2>
 
         {/* Sudeste */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold mb-6 border-b border-[#D4AF37] pb-2">
+          <h3 className="text-2xl font-bold mb-6 border-b border-[#446EEC] pb-2">
             SUDESTE
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -66,7 +66,7 @@ export default function UnidadesPage() {
               </p>
               <p className="mb-2">São Paulo - SP</p>
               <p className="mb-4">Tel: (41) 9 9839-2690</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -77,7 +77,7 @@ export default function UnidadesPage() {
               <p className="mb-2">Av. Rebouças, 3970 - Pinheiros</p>
               <p className="mb-2">São Paulo - SP</p>
               <p className="mb-4">Tel: (11) 9999-8888</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -88,7 +88,7 @@ export default function UnidadesPage() {
               <p className="mb-2">Av. Limeira, 722 - Areião</p>
               <p className="mb-2">Piracicaba - SP</p>
               <p className="mb-4">Tel: (19) 9999-7777</p>
-              <p className="bg-[#D4AF37] text-black inline-block px-2 py-1 text-sm font-bold">
+              <p className="bg-[#446EEC] text-black inline-block px-2 py-1 text-sm font-bold">
                 EM IMPLANTAÇÃO
               </p>
             </div>
@@ -97,7 +97,7 @@ export default function UnidadesPage() {
 
         {/* Sul */}
         <div className="mb-12">
-          <h3 className="text-2xl font-bold mb-6 border-b border-[#D4AF37] pb-2">
+          <h3 className="text-2xl font-bold mb-6 border-b border-[#446EEC] pb-2">
             SUL
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -108,7 +108,7 @@ export default function UnidadesPage() {
               <p className="mb-2">R. Pres. Kennedy, 4121 - Portão</p>
               <p className="mb-2">Curitiba - PR</p>
               <p className="mb-4">Tel: (41) 9999-6666</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -119,7 +119,7 @@ export default function UnidadesPage() {
               <p className="mb-2">Av. Assis Brasil, 164 - São João</p>
               <p className="mb-2">Porto Alegre - RS</p>
               <p className="mb-4">Tel: (51) 9999-5555</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -128,7 +128,7 @@ export default function UnidadesPage() {
 
         {/* Nordeste */}
         <div>
-          <h3 className="text-2xl font-bold mb-6 border-b border-[#D4AF37] pb-2">
+          <h3 className="text-2xl font-bold mb-6 border-b border-[#446EEC] pb-2">
             NORDESTE
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -139,7 +139,7 @@ export default function UnidadesPage() {
               <p className="mb-2">Av. Centenário, 2992 - Barra</p>
               <p className="mb-2">Salvador - BA</p>
               <p className="mb-4">Tel: (71) 9999-4444</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -152,7 +152,7 @@ export default function UnidadesPage() {
               </p>
               <p className="mb-2">Recife - PE</p>
               <p className="mb-4">Tel: (81) 9999-3333</p>
-              <a href="#" className="text-[#D4AF37] font-bold">
+              <a href="#" className="text-[#446EEC] font-bold">
                 Ver no mapa
               </a>
             </div>
@@ -163,7 +163,7 @@ export default function UnidadesPage() {
       {/* Novas Unidades */}
       <Section bgColor="black">
         <h2 className="text-center mb-12 text-white">
-          NOVAS <span className="text-[#D4AF37]">UNIDADES</span>
+          NOVAS <span className="text-[#446EEC]">UNIDADES</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
@@ -177,24 +177,24 @@ export default function UnidadesPage() {
               conhecer nossas novas unidades!
             </p>
             <div className="bg-[#111] p-6 text-white mb-6">
-              <h4 className="text-xl font-bold mb-2 text-[#D4AF37]">
+              <h4 className="text-xl font-bold mb-2 text-[#446EEC]">
                 PRÓXIMAS INAUGURAÇÕES
               </h4>
               <ul className="space-y-2">
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Piracicaba - SP (Junho/2025)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Brasília - DF (Julho/2025)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Belo Horizonte - MG (Agosto/2025)</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="text-[#D4AF37] mr-2">✓</span>
+                  <span className="text-[#446EEC] mr-2">✓</span>
                   <span>Fortaleza - CE (Setembro/2025)</span>
                 </li>
               </ul>

@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React from 'react';
+import React from "react";
 
 type StatCounterProps = {
   value: string | number;
@@ -9,15 +9,18 @@ type StatCounterProps = {
   className?: string;
 };
 
-export default function StatCounter({ 
-  value, 
+export default function StatCounter({
+  value,
   label,
-  prefix = '',
-  className = ''
+  prefix = "",
+  className = "",
 }: StatCounterProps) {
   return (
     <div className={`text-center ${className}`}>
-      <div className="text-5xl font-black text-[#D4AF37] mb-2">{prefix}{value}</div>
+      <div className="text-5xl font-black text-[#446EEC] mb-2">
+        {prefix}
+        {value}
+      </div>
       <p className="uppercase text-sm tracking-wider">{label}</p>
     </div>
   );

@@ -28,7 +28,7 @@
                       children: [
                         "SOLLOS",
                         (0, l.jsx)("span", {
-                          className: "text-[#D4AF37]",
+                          className: "text-[#446EEC]",
                           children: ".",
                         }),
                         " FRANCHISING",
@@ -53,28 +53,28 @@
                         (0, l.jsx)("li", {
                           children: (0, l.jsx)(r(), {
                             href: "/",
-                            className: "text-sm hover:text-[#D4AF37]",
+                            className: "text-sm hover:text-[#446EEC]",
                             children: "Home",
                           }),
                         }),
                         (0, l.jsx)("li", {
                           children: (0, l.jsx)(r(), {
                             href: "/sobre",
-                            className: "text-sm hover:text-[#D4AF37]",
+                            className: "text-sm hover:text-[#446EEC]",
                             children: "Sobre N\xf3s",
                           }),
                         }),
                         (0, l.jsx)("li", {
                           children: (0, l.jsx)(r(), {
                             href: "/franquia",
-                            className: "text-sm hover:text-[#D4AF37]",
+                            className: "text-sm hover:text-[#446EEC]",
                             children: "Franquia Sniper",
                           }),
                         }),
                         (0, l.jsx)("li", {
                           children: (0, l.jsx)(r(), {
                             href: "/seja-franqueado",
-                            className: "text-sm hover:text-[#D4AF37]",
+                            className: "text-sm hover:text-[#446EEC]",
                             children: "Seja um Franqueado",
                           }),
                         }),
@@ -119,7 +119,7 @@
                         (0, l.jsx)("a", {
                           href: "#",
                           className:
-                            "text-white hover:text-[#D4AF37]",
+                            "text-white hover:text-[#446EEC]",
                           children: (0, l.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             width: "24",
@@ -134,7 +134,7 @@
                         (0, l.jsx)("a", {
                           href: "#",
                           className:
-                            "text-white hover:text-[#D4AF37]",
+                            "text-white hover:text-[#446EEC]",
                           children: (0, l.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             width: "24",
@@ -149,7 +149,7 @@
                         (0, l.jsx)("a", {
                           href: "#",
                           className:
-                            "text-white hover:text-[#D4AF37]",
+                            "text-white hover:text-[#446EEC]",
                           children: (0, l.jsx)("svg", {
                             xmlns: "http://www.w3.org/2000/svg",
                             width: "24",
@@ -204,7 +204,7 @@
                   children: [
                     "SOLLOS",
                     (0, l.jsx)("span", {
-                      className: "text-[#D4AF37]",
+                      className: "text-[#446EEC]",
                       children: ".",
                     }),
                     " FRANCHISING",
